@@ -1,7 +1,6 @@
 --// Initialization
 
-local Replicate
-dStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local CollectionService = game:GetService("CollectionService")
 
 local Tagged_Alarms = CollectionService:GetTagged("Panic_Alarms")
